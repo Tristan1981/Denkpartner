@@ -14,13 +14,13 @@ export const NAVIGATION_LINKS = [
 export const PRICING_DATA: PricingItem[] = [
   {
     title: 'Intakegesprek',
-    price: '€250,-',
+    price: '€75,-',
     description: 'Een eerste verdieping in waar je staat en wat er nodig is.',
     subtext: 'Wordt verrekend wanneer we een traject starten.'
   },
   {
     title: 'Los gesprek (2 uur)',
-    price: '€650,-',
+    price: '€495,-',
     description: 'Voor leiders met een urgente vraag of thema dat diepte vraagt.'
   },
   {
