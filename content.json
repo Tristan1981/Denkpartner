@@ -1,0 +1,212 @@
+{
+  "hero": {
+    "title": "INNER LEADERSHIP",
+    "subtitle": "Coach en sparringpartner voor leiders die rust, helderheid en richting zoeken.",
+    "intro": "Leiderschap begint niet buiten je, maar van binnen. Het vraagt moed om te zien wie je werkelijk bent en te handelen vanuit die plek.",
+    "roles": [
+      "Sparringpartner",
+      "Mental Coach",
+      "Presentatietrainer",
+      "Business Coach"
+    ]
+  },
+  "navigation": [
+    {
+      "name": "Jij",
+      "href": "#jij"
+    },
+    {
+      "name": "Wij",
+      "href": "#wij"
+    },
+    {
+      "name": "Ik",
+      "href": "#ik"
+    },
+    {
+      "name": "Resultaten",
+      "href": "#resultaten"
+    },
+    {
+      "name": "Aanbod",
+      "href": "#aanbod"
+    },
+    {
+      "name": "Over mij",
+      "href": "#over-mij"
+    },
+    {
+      "name": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "jij": {
+    "title": "JIJ",
+    "intro": "Aan de buitenkant klopt alles.\nJe levert, je presteert, je gaat door.",
+    "p1": "Maar van binnen klopt het niet.\nOnrust, ruis, twijfel, iets dat je niet langer kunt wegdrukken.",
+    "p2": "Je hebt veel bereikt, maar het voelt niet meer zoals vroeger.\nEr mist iets: betekenis, richting, bezieling.",
+    "p3": "Of misschien loopt je leven níet zoals je wilt, en weet je niet waar dit aan ligt.\nJe voelt dat je onderweg iets bent kwijtgeraakt.\nDat er meer in je zit, maar je komt er niet bij.",
+    "p4": "Je probeert het alleen op te lossen, maar je blijft in dezelfde cirkel draaien.",
+    "quote": "Je zoekt iemand die echt luistert. Die je eerlijk spiegelt, zonder maskers en zonder oordeel. Iemand die verder kijkt dan je functie of je prestaties.",
+    "helderheid": "Je zoekt helderheid.",
+    "meelopen": "Maar vooral: iemand die een stuk met je meeloopt, zodat je het niet alleen hoeft te doen."
+  },
+  "wij": {
+    "title": "WIJ",
+    "subtitle": "Samen vertragen we.",
+    "p1": "We onderzoeken wat je drijft, wat schuurt en wat je werkelijk wilt.",
+    "p2": "Ik kijk niet naar de buitenkant, maar naar jouw kern.",
+    "p3": "Met aandacht, eerlijkheid en rust creëren we ruimte om te zien wat je zelf niet meer zag en om keuzes te maken die echt bij je passen.",
+    "p4": "Van vanuit die ruimte ontstaat richting.\nNiet mijn richting, maar de jouwe.",
+    "footer": "Jij loopt het pad.\nIk loop met je mee."
+  },
+  "ik": {
+    "title": "IK",
+    "intro": "Ik ben niet degene die jou vertelt wat je moet doen.\nIk ben degene die naast je staat.",
+    "rust_title": "RUST",
+    "rust": "zodat je kunt landen.",
+    "ruimte_title": "RUIMTE",
+    "ruimte": "om te voelen, te onderzoeken en helder te zien.",
+    "richting_title": "RICHTING",
+    "richting": "zodat je verder kunt bewegen vanuit jouw kern.",
+    "p1": "Ik luister zonder oordeel.\nIk stel vragen die je verder brengen dan je verhaal.\nIk spiegel je scherp en eerlijk, niet om je te sturen, maar om je terug te brengen naar wat klopt.",
+    "p2": "Waar blokkades zitten, lossen we ze samen op.\nWaar oude patronen je tegenhouden, maken we ze zichtbaar.",
+    "quote": "Ik geloof dat de antwoorden al in je zitten.\nIk help je er weer toegang toe te krijgen."
+  },
+  "resultaten": {
+    "title": "Wat onze samenwerking je brengt",
+    "items": [
+      "Rust in je hoofd en helderheid in je hart",
+      "Inzicht in je patronen en keuzes",
+      "Eerlijkheid, naar jezelf en naar anderen",
+      "Je maakt keuzes vanuit helderheid",
+      "Richting en energie",
+      "Meer vertrouwen in jezelf",
+      "Kunnen voelen wat klopt",
+      "Leiderschap van binnenuit"
+    ],
+    "footer": "En boven alles:\nje komt terug bij jezelf — bij de plek van waaruit jij wilt leven en leiden."
+  },
+  "aanbod": {
+    "title": "INVESTERING",
+    "intro": "Ik werk met een beperkt aantal mensen tegelijk. Dat is een bewuste keuze.\nHet geeft ruimte, scherpte en volledige aandacht — precies wat nodig is voor echte diepgang.\nIk kies voor trajecten die blijvend verschil maken, niet voor snelle geruststelling."
+  },
+  "overmij": {
+    "title": "OVER MIJ",
+    "p1": "Ik ben getrouwd en vader van drie kinderen. Zij zijn mijn anker en mijn kompas. Wat voor mij telt is eenvoudig: liefde, verantwoordelijkheid, veiligheid en verbinding. Dat vormt de basis van hoe ik leef en hoe ik werk.",
+    "p2": "Mijn achtergrond is breed: van mental coach, trainer en sparringpartner voor ondernemers tot registercontroller en finance professional. Die combinatie van business, mensgericht werk en intern leiderschap maakt mijn aanpak effectief. Ik beweeg vrij tussen ratio en intuïtie, tussen strategie en menselijkheid.",
+    "p3": "Ik ben opgeleid door o.a. Frits Löhnen (Mental Coaching) en Pieter Frijters (Mind Tuning & Presenteren). Daarnaast volgde ik opleidingen in leiderschap, psychologie, zingeving, communicatie en ademwerk. Ik nam deel aan intensieve special-forces-trainingsprogramma’s en heb jarenlang ervaring binnen martial arts, met Systema als belangrijke leerschool.",
+    "p4": "Maar mijn grootste groei komt uit mijn eigen leven — mijn fouten, mijn vragen, mijn zoeken, vallen en opstaan. Dat maakt me geen guru en niet iemand met alle antwoorden. Wel iemand die zelf door het werk heen is gegaan, en anderen helpt hetzelfde te doen.",
+    "footer": "Met rust, ruimte en richting."
+  },
+  "contact": {
+    "title": "Jouw volgende stap",
+    "p1": "Wil je onderzoeken of wij bij elkaar passen?\nDan plannen we een kennismaking, in mijn praktijk of online.\nWe nemen de tijd om te kijken waar je staat, wat er speelt en hoe ik werk.",
+    "p2": "Het moet bij ons allebei passen.\nEn als het klopt, kan het veel in beweging zetten.",
+    "location": "Persoonlijke gesprekken vinden plaats in de regio Emmen of online."
+  },
+  "pricing": [
+    {
+      "title": "Intakegesprek",
+      "price": "€ 250,-",
+      "description": "Een eerste verdieping in waar je staat en wat er nodig is.",
+      "subtext": "Wordt verrekend wanneer we een traject starten."
+    },
+    {
+      "title": "Los gesprek (2 uur)",
+      "price": "€ 650,-",
+      "description": "Voor leiders met een urgente vraag of thema dat diepte vraagt."
+    },
+    {
+      "title": "Kort traject (3–6 maanden)",
+      "price": "Prijs op aanvraag",
+      "description": "Gerichte begeleiding naar helderheid, richting en betekenis."
+    },
+    {
+      "title": "Intensief traject (6–12 maanden)",
+      "price": "Prijs op aanvraag",
+      "description": "Voor leiders die structureel willen leven en leiden vanuit hun kern."
+    },
+    {
+      "title": "Partner traject (12+ maanden)",
+      "price": "Prijs op aanvraag",
+      "description": "Mijn meest exclusieve vorm van samenwerking: maximale nabijheid, prioriteit en directe bereikbaarheid."
+    },
+    {
+      "title": "Groepstraining Leiding geven aan jezelf",
+      "price": "€ 950,-",
+      "description": "1,5 dag. Diep, eerlijk en inzichtgevend in kleine groepen."
+    },
+    {
+      "title": "Presentatietraining",
+      "price": "€ 1.250,-",
+      "description": "2 dagen. Voor leiders die hun verhaal helder, krachtig en authentiek willen neerzetten, met minimale spreekangst."
+    },
+    {
+      "title": "Incompany / maatwerk",
+      "price": "Prijs op aanvraag",
+      "description": "Voor teams en organisaties."
+    }
+  ],
+  "education": [
+    {
+      "year": "2025–heden",
+      "title": "Master Spiritual Care",
+      "institution": "Rijksuniversiteit Groningen"
+    },
+    {
+      "year": "2025",
+      "title": "Trainersopleiding",
+      "institution": "Unbreakable Academy"
+    },
+    {
+      "year": "2023–2025",
+      "title": "Special Forces-trainingsprogramma’s",
+      "institution": "Unbreakable Academy"
+    },
+    {
+      "year": "2016–2017",
+      "title": "Opleiding Mind Tuning Coach",
+      "institution": "Frijters Mind Tuning"
+    },
+    {
+      "year": "2016–2017",
+      "title": "Opleiding Spreektrainer",
+      "institution": "Spreek.nl"
+    },
+    {
+      "year": "2013–2015",
+      "title": "Opleiding Mental Coach",
+      "institution": "Instituut voor Mental Coaching (Löhnen)"
+    },
+    {
+      "year": "2004–2020",
+      "title": "Systema seminars & opleidingen binnen- en buitenland",
+      "institution": ""
+    },
+    {
+      "year": "2010–2013",
+      "title": "Registercontroller",
+      "institution": "Rijksuniversiteit Groningen"
+    },
+    {
+      "year": "2002–2006",
+      "title": "Hospitality / Facility Management",
+      "institution": ""
+    }
+  ],
+  "theme": {
+    "fontSans": "Inter",
+    "fontSerif": "Playfair Display",
+    "baseFontSize": 16
+  },
+  "sections": [
+    { "id": "jij", "name": "Jij", "visible": true },
+    { "id": "wij", "name": "Wij", "visible": true },
+    { "id": "ik", "name": "Ik", "visible": true },
+    { "id": "resultaten", "name": "Resultaten", "visible": true },
+    { "id": "aanbod", "name": "Aanbod", "visible": true },
+    { "id": "over-mij", "name": "Over mij", "visible": true },
+    { "id": "contact", "name": "Contact", "visible": true }
+  ]
+}
