@@ -45,8 +45,8 @@ export const IntakeForm: React.FC = () => {
     }
     setLoading(true);
     
-    // We versturen de gegevens via Formsubmit.co direct naar Tristanwiering@gmail.com
-    fetch("https://formsubmit.co/ajax/Tristanwiering@gmail.com", {
+    // We versturen de gegevens via Formsubmit.co direct naar info@tristanwiering.nl
+    fetch("https://formsubmit.co/ajax/info@tristanwiering.nl", {
       method: "POST",
       headers: { 
         "Content-Type": "application/json",
