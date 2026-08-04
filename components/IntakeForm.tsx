@@ -45,47 +45,54 @@ export const IntakeForm: React.FC = () => {
     }
     setLoading(true);
     
-    // Bij verbinding op GitHub Pages of een andere statische hostingomgeving (niet local dev en niet Netlify)
-    // sturen we de formulierinhoud op via een overzichtelijke mailto-link als back-up.
-    const isStaticProduction = !window.location.hostname.includes('netlify') && 
-                               !window.location.hostname.includes('localhost') && 
-                               !window.location.hostname.includes('run.app');
-
-    if (isStaticProduction) {
-      const subject = encodeURIComponent(`Intake/Contactaanvraag van ${formData.name}`);
-      const body = encodeURIComponent(
-        `Naam: ${formData.name}\n` +
-        `E-mail: ${formData.email}\n` +
-        `Telefoon: ${formData.phone || 'Niet ingevuld'}\n` +
-        `Voorkeur Contact: ${formData.contactMethod}\n` +
-        `Organisatie: ${formData.organization || 'Niet ingevuld'}\n` +
-        `Functie / Rol: ${formData.role || 'Niet ingevuld'}\n\n` +
-        `Bericht:\n${formData.message || 'Geen bericht'}\n\n` +
-        `Intake Vragen (Optioneel):\n` +
-        `1. Waar sta je nu in je leven/werk?\n${formData.intakeQ1 || 'Niet ingevuld'}\n\n` +
-        `2. Wat schuurt er het meest op dit moment?\n${formData.intakeQ2 || 'Niet ingevuld'}\n\n` +
-        `3. Wat zou er anders zijn in je leven als je dit hebt opgelost?\n${formData.intakeQ3 || 'Niet ingevuld'}\n`
-      );
-      
-      window.location.href = `mailto:Tristanwiering@gmail.com?subject=${subject}&body=${body}`;
-      setLoading(false);
-      setSubmitted(true);
-      return;
-    }
-    
-    fetch("/", {
+    // We versturen de gegevens via Formsubmit.co direct naar Tristanwiering@gmail.com
+    fetch("https://formsubmit.co/ajax/Tristanwiering@gmail.com", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...formData })
+      headers: { 
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({
+        _subject: `Nieuwe Intake / Contactaanvraag van ${formData.name}`,
+        _template: "table",
+        naam: formData.name,
+        email: formData.email,
+        telefoon: formData.phone || 'Niet ingevuld',
+        voorkeur_contact: formData.contactMethod,
+        organisatie: formData.organization || 'Niet ingevuld',
+        functie_rol: formData.role || 'Niet ingevuld',
+        bericht: formData.message || 'Geen bericht',
+        intake_vraag_1_waar_sta_je: formData.intakeQ1 || 'Niet ingevuld',
+        intake_vraag_2_wat_schuurt_er: formData.intakeQ2 || 'Niet ingevuld',
+        intake_vraag_3_wat_zou_er_anders_zijn: formData.intakeQ3 || 'Niet ingevuld',
+        investering_akkoord: formData.investmentUnderstanding ? 'Ja' : 'Nee'
+      })
     })
-      .then(() => {
+      .then(response => response.json())
+      .then(data => {
         setLoading(false);
         setSubmitted(true);
       })
       .catch(error => {
+        console.error("Formsubmit error, fallback to mailto", error);
+        // Fallback naar mailto als er een netwerkfout is
+        const subject = encodeURIComponent(`Intake/Contactaanvraag van ${formData.name}`);
+        const body = encodeURIComponent(
+          `Naam: ${formData.name}\n` +
+          `E-mail: ${formData.email}\n` +
+          `Telefoon: ${formData.phone || 'Niet ingevuld'}\n` +
+          `Voorkeur Contact: ${formData.contactMethod}\n` +
+          `Organisatie: ${formData.organization || 'Niet ingevuld'}\n` +
+          `Functie / Rol: ${formData.role || 'Niet ingevuld'}\n\n` +
+          `Bericht:\n${formData.message || 'Geen bericht'}\n\n` +
+          `Intake Vragen:\n` +
+          `1. Waar sta je nu?\n${formData.intakeQ1 || 'Niet ingevuld'}\n\n` +
+          `2. Wat schuurt er?\n${formData.intakeQ2 || 'Niet ingevuld'}\n\n` +
+          `3. Wat zou anders zijn?\n${formData.intakeQ3 || 'Niet ingevuld'}\n`
+        );
+        window.location.href = `mailto:Tristanwiering@gmail.com?subject=${subject}&body=${body}`;
         setLoading(false);
-        alert("Er is een fout opgetreden bij het versturen van het formulier. Probeer het later opnieuw.");
-        console.error(error);
+        setSubmitted(true);
       });
   };
 
